@@ -30,5 +30,14 @@
         <li>SD Negeri Bausasran 3 Yogyakarta (2002 - 2008)</li>
       </ul>
     </div>
+    <script>
+        const h3 = document.querySelectorAll("h3");
+        h3.forEach((el) => {
+            el.addEventListener("click", () => {
+                alert("Anda mengklik " + el.innerText);
+            });
+            el.style.color = "blue";
+        });
+    </script>
   </body>
 </html>
